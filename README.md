@@ -46,15 +46,11 @@ SVR             |Categorical        |	'epsilon'|	[0.0001, 0.0005, 0.001, 0.005, 
 
 
 ## How to run the models
-1. Install XG boost, SVR and hyperopt from the repositories;
+1. Install XG boost, SVR, SMOGN and Hyperopt from the repositories;
 2. Create an empty folder;
-3. In this folder place the python code file (e.g. Hyper_ANN.py) and the input file (e.g. st1.xlsx); In the code file (e.g. Hyper_ANN.py) set the training and validation percentages of the dataset (e.g. train_size=0.7, test_size=0.3);
-4. Run the code. The output includes: file with score for each model run; file with the parameters for each model run; file with the Mean Average Error (MAE) for the training dataset; file with the MAE for the validation dataset. 
-
-## How to run the optimized models
-5. Create an empty folder;
-6. In this folder place the python code file (e.g. XG_BOOST_SMOGN.py) and the input file or files (e.g. st1.xlsx; st2.xlsx; st3.xlsx;...;st22.xlsx).
-7. Run the code. The output includes: 
+3. In this folder place the python code file (e.g. XG_BOOST_SMOGN.py) and the input file or files (e.g. st1.xlsx; st2.xlsx; st3.xlsx;...;st22.xlsx).
+4. In the code file (e.g. XG_BOOST_SMOGN.py) set the training and validation percentages of the dataset (e.g. train_size=0.7, test_size=0.3)
+5. Run the code. The output includes: 
 - files with the modified initial dataset obtained with SMOGN for each iteration (e.g. SMOGN_out1.xlsx);
 - file with the SMOGN parameters obtained for each iteration (e.g. SMOGN_parameters1.xlsx)
 - file with the machine learning model hyperparameters, one file per station (e.g.parameters1.csv); 
