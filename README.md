@@ -8,8 +8,8 @@ This repository includes the python code of two models that were used to predict
 The results of this study are described in the following manuscript: 
 **Almeida, M.C. and Coelho P.S.: An integrated approach based on the correction of imbalanced small datasets and the application of machine learning algorithms to predict Total Phosphorus concentration in rivers**:
 
-- XGboost (_vide_[https://xgboost.readthedocs.io/en/stable/] (Chen and Guestrin, 2016))
--	SVR (_vide_ [sklearn webpage](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVR.html]))
+- XGboost (_vide_ [XGboost webpage](https://xgboost.readthedocs.io/en/stable/) (Chen and Guestrin, 2016))
+-	SVR (_vide_ [sklearn webpage](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVR.html))
 -	SMOGN (_vide_ [SMOGN webpage](https://github.com/nickkunz/smogn))
 
 The machine learning models hyperparameter optimization was implemented with the Tree-structured Parzen Estimators algorithm (TPE) (Bergstra et al 2011). The python code implementation of TPE with the Hyperot algorithm (Bergstra et al 2013) is also available.
