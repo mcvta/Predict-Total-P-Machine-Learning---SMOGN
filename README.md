@@ -57,7 +57,7 @@ SVR             |Categorical        |	'epsilon'|	[0.0001, 0.0005, 0.001, 0.005, 
 - file with the metrics MAE and NSE for the machine learning model and for each station obtained for each hyperopt iteration (e.g. metrics1.xlsx)
 - file with the predicted values for the training dataset for each station (e.g.trainSVR1.xlsx); 
 - file with the predicted values for the testing dataset for each station (e.g.testSVR1.xlsx.xlsx); 
-- file with the total phosphorus prediction considering the entire dataset (e.g.prediction.xlsx)
+- file with the total phosphorus prediction considering the entire dataset (e.g.prediction.xlsx).
 
 
 
